@@ -9,9 +9,9 @@ This is a 3D model and cad for a serial 2-DOF actuator that rotates in the azimu
 - [Arduino Uno](https://store.arduino.cc/products/arduino-uno-rev3)
 
 ## Code
-The code in this script uses the positioning and time data from the GPS to calculate the angle of the sun. It does this through a open loop algorithm provided by the [NOAA](https://www.noaa.gov/) which I have programed into the calculate function in the script the script should be able to be uploaded to an arduino and work without any alterations.
+The code in this script uses the positioning and time data from the GPS to calculate the angle of the sun. It does this through a open loop algorithm provided by the [NOAA](https://www.noaa.gov/) which I have programed into the calculate function in the script. If you follow the wiring diagram below you should be able to upload the code and get it running.
 
 ## Wiring Diagram
-Below is a wiring diagram for how all the motors and controllers were hooked up
+Below is a wiring diagram for how all the motors and controllers are hooked up
 
-<img src=https:// alt='missing'>
+<img src=https://raw.githubusercontent.com/ealexanderca/Solar-Tracker-V1/main/extras/Wiring.png alt='missing'>
